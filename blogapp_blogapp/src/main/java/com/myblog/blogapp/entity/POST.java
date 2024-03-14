@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.persistence.UniqueConstraint;
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*; // remove the data 
 import lombok.NoArgsConstructor;
 
 @Data         // lombok@ (getter or setter) we can also use @getter and @setter instead of this use @data

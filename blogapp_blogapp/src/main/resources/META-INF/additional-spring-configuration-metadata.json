@@ -1,5 +1,12 @@
-{"properties": [{
-  "name": "jakarta.persistence.jdbc.url",
-  "type": "java.lang.String",
-  "description": "A description for 'jakarta.persistence.jdbc.url'"
-}]}
+{"properties": [
+  {
+    "name": "jakarta.persistence.jdbc.url",
+    "type": "java.lang.String",
+    "description": "A description for 'jakarta.persistence.jdbc.url'"
+  },
+  {
+    "name": "spring.database.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.database.url'"
+  }
+]}
