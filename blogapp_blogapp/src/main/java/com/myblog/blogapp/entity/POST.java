@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @Data         // lombok@ (getter or setter) we can also use @getter and @setter instead of this use @data
 @NoArgsConstructor // constructor no args 
 @AllArgsConstructor // constructor all args
-@Entity
+@Entity 
 @Table(
 				
 		name = "posts" , 
@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 		)
 public class POST {
 	
-	
+	// real world entity describe in a database in a form of table structure. 
 	@Id
 	@GeneratedValue( strategy = GenerationType.IDENTITY )
 	private Long id;
